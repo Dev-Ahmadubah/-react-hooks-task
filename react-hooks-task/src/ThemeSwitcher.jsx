@@ -1,9 +1,7 @@
 import { useContext } from 'react'
 import { ThemeContext } from './ThemeContext'
 
-// Step 7: Create a simple button that toggles between light and dark themes
 function ThemeSwitcher() {
-  // Step 8: Use useContext in your button to read the current theme and change it
   const { theme, toggleTheme } = useContext(ThemeContext)
 
   return (

@@ -7,7 +7,7 @@ import ThemeSwitcher from './ThemeSwitcher'
 import './App.css'
 
 function AppContent() {
-  // Step 8: Import this hook in your main App component and use it
+ 
   const { tasks, addTask, toggleTask, deleteTask } = useTasks()
   const { theme } = useContext(ThemeContext)
 
@@ -31,7 +31,7 @@ function AppContent() {
 }
 
 function App() {
-  // Step 6: Wrap your App component with the ThemeProvider
+  
   return (
     <ThemeProvider>
       <AppContent />
